@@ -1,0 +1,5 @@
+Region,Metric,Budget,Actual,Variance,Variance_Pct,Prior_Year_Actual,YoY_Pct,Commission_Rate_Pct
+North America,Bookings,2600000,2450000,-150000,-5.8,2300000,6.5,2.0
+EMEA,Bookings,1200000,800000,-400000,-33.3,1100000,-27.3,2.0
+APAC,Bookings,800000,700000,-100000,-12.5,550000,27.3,2.0
+Corporate,Bookings,200000,150000,-50000,-25.0,150000,0.0,2.0

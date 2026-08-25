@@ -1,0 +1,55 @@
+<context>
+Entity: {department}. Period: {period}. Comparison: budget, and prior-year
+same period. Materiality: {threshold_dollars} AND {threshold_pct}, applied
+at the {grain} grain.
+</context>
+
+<data>
+<expense_detail>
+{expense_rows}
+</expense_detail>
+<volume_memo>
+{volume_rows}
+</volume_memo>
+</data>
+
+<computed>
+Total variance: {total_variance}
+Lines clearing materiality: {material_count}, summing to {material_sum}
+Residual across all other lines: {residual}
+
+Region roll-up (net variance vs gross absolute movement):
+{region_rollup}
+</computed>
+
+<examples>
+<example>
+<situation>One driver appearing across two accounts in one region.</situation>
+<commentary>Central freight was $21K favorable, more than offset by $34K of
+expedite fees in the same region - both are the Q1 carrier transition, not
+two findings. Net $13K unfavorable; the gross movement of $55K is the better
+measure of disruption. Expedite volume should normalise in May.</commentary>
+</example>
+<example>
+<situation>A favorable variance created by a volume shortfall.</situation>
+<commentary>Royalty expense was $9K favorable. The rate is unchanged at
+3.0%; the variance is entirely licensed unit volume, which finished 12%
+below plan. This should not be read as a cost saving.</commentary>
+</example>
+<example>
+<situation>An over-budget line that is flat year over year.</situation>
+<commentary>Warehouse supplies ran $16K over budget but is within 2% of
+prior-year March. This appears to be a phasing error in the plan rather
+than incremental spend - recommend confirming against the H2 phasing
+before treating it as recoverable.</commentary>
+</example>
+</examples>
+
+<instructions>
+Before writing, check each region's net variance against its total gross
+movement, and note any region where the two diverge sharply.
+
+Then write the variance commentary, following the style of the examples.
+Use the figures in <computed> for the reconciliation; do not recalculate
+them.
+</instructions>

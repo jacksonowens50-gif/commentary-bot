@@ -1,0 +1,43 @@
+Region,Account,Category,Budget,Actual,Variance,Variance_Pct,Prior_Year_Actual,YoY_Pct
+North America,Salaries & Wages,Personnel,190000,188000,2000,1.1,182000,3.3
+EMEA,Salaries & Wages,Personnel,120000,82000,38000,31.7,116000,-29.3
+APAC,Salaries & Wages,Personnel,70000,68000,2000,2.9,60000,13.3
+Corporate,Salaries & Wages,Personnel,40000,40000,0,0.0,39000,2.6
+North America,Contract Labor,Personnel,10000,9000,1000,10.0,8000,12.5
+EMEA,Contract Labor,Personnel,5000,39000,-34000,-680.0,4000,875.0
+APAC,Contract Labor,Personnel,5000,5000,0,0.0,5000,0.0
+Corporate,Contract Labor,Personnel,5000,3000,2000,40.0,4000,-25.0
+North America,Recruiting Fees,Personnel,5000,4000,1000,20.0,6000,-33.3
+EMEA,Recruiting Fees,Personnel,4000,28000,-24000,-600.0,3000,833.3
+APAC,Recruiting Fees,Personnel,3000,3000,0,0.0,2000,50.0
+Corporate,Recruiting Fees,Personnel,3000,2000,1000,33.3,2000,0.0
+North America,Commissions,Selling,52000,49000,3000,5.8,46000,6.5
+EMEA,Commissions,Selling,24000,16000,8000,33.3,22000,-27.3
+APAC,Commissions,Selling,16000,14000,2000,12.5,11000,27.3
+Corporate,Commissions,Selling,4000,3000,1000,25.0,3000,0.0
+North America,Trade Shows & Events,Marketing Programs,30000,118000,-88000,-293.3,112000,5.4
+EMEA,Trade Shows & Events,Marketing Programs,15000,14000,1000,6.7,13000,7.7
+APAC,Trade Shows & Events,Marketing Programs,10000,8000,2000,20.0,7000,14.3
+Corporate,Trade Shows & Events,Marketing Programs,5000,5000,0,0.0,5000,0.0
+North America,Digital Advertising,Marketing Programs,130000,128000,2000,1.5,105000,21.9
+EMEA,Digital Advertising,Marketing Programs,55000,52000,3000,5.5,50000,4.0
+APAC,Digital Advertising,Marketing Programs,45000,44000,1000,2.2,30000,46.7
+Corporate,Digital Advertising,Marketing Programs,20000,20000,0,0.0,18000,11.1
+North America,Travel & Entertainment,Travel & Entertainment,24000,23000,1000,4.2,21000,9.5
+EMEA,Travel & Entertainment,Travel & Entertainment,14000,13000,1000,7.1,14000,-7.1
+APAC,Travel & Entertainment,Travel & Entertainment,16000,36000,-20000,-125.0,15000,140.0
+Corporate,Travel & Entertainment,Travel & Entertainment,6000,6000,0,0.0,5000,20.0
+North America,Meals & Entertainment,Travel & Entertainment,3000,3100,-100,-3.3,2900,6.9
+EMEA,Meals & Entertainment,Travel & Entertainment,2000,1900,100,5.0,2000,-5.0
+APAC,Meals & Entertainment,Travel & Entertainment,2000,3200,-1200,-60.0,1800,77.8
+Corporate,Meals & Entertainment,Travel & Entertainment,1000,1000,0,0.0,900,11.1
+Corporate,Software Subscriptions,Other Operating,34000,43000,-9000,-26.5,32000,34.4
+Corporate,Outside Consulting,Other Operating,40000,0,40000,100.0,15000,-100.0
+North America,Facilities Allocation,Other Operating,22000,22000,0,0.0,21000,4.8
+EMEA,Facilities Allocation,Other Operating,12000,12000,0,0.0,12000,0.0
+APAC,Facilities Allocation,Other Operating,8000,8000,0,0.0,8000,0.0
+Corporate,Facilities Allocation,Other Operating,10000,10000,0,0.0,10000,0.0
+North America,Office & Supplies,Other Operating,2500,2300,200,8.0,2400,-4.2
+EMEA,Office & Supplies,Other Operating,1500,1300,200,13.3,1400,-7.1
+APAC,Office & Supplies,Other Operating,1000,900,100,10.0,850,5.9
+Corporate,Office & Supplies,Other Operating,1000,900,100,10.0,950,-5.3

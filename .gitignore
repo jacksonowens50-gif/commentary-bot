@@ -1,0 +1,19 @@
+# generated output
+output/
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editor / os
+.vscode/
+.DS_Store
+Thumbs.db
+
+# excel lock files
+~$*.xlsx
